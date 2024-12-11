@@ -1,0 +1,213 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.section {
+  display: grid;
+  position: relative;
+  align-content: flex-start;
+  justify-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.section > * {
+  grid-column: 4;
+}
+.columns {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  align-items: stretch;
+  flex-shrink: 1;
+  max-width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 0px;
+  justify-self: flex-start;
+  grid-column-start: 3 !important;
+  grid-column-end: -3 !important;
+  --plsmc-rc-col-gap: 0px;
+  padding: 15px;
+}
+.columns > :nth-child(3n + 1) {
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
+}
+.columns > :nth-child(3n + 2) {
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
+}
+.columns > :nth-child(3n + 3) {
+  width: calc((100% - 3 * var(--plsmc-rc-col-gap, 0px)) * 4 / 12);
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .columns {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .columns > :nth-child(1n + 1) {
+    width: calc((100% - 1 * var(--plsmc-rc-col-gap, 0px)) * 12 / 12);
+  }
+}
+.column__eKco3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.img__nCdRw {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.img__nCdRw > picture > img {
+  object-fit: cover;
+}
+.text__q0P9C {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+.addToCart:global(.__wab_instance) {
+  max-width: 100%;
+  transition-property: all;
+  transition-duration: 1s;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 1s;
+}
+.svg__rXoRy {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.text__bGniG {
+  text-align: center;
+  color: #00000080;
+}
+.svg__rqNli {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.column__rKte9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.img__iRYm {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.img__iRYm > picture > img {
+  object-fit: cover;
+}
+.text___1NrhX {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+.button__nJt5:global(.__wab_instance) {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.svg__wVci6 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__mPyt6 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.column__skOxh {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+.img__ygIvo {
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.img__ygIvo > picture > img {
+  object-fit: cover;
+}
+.text__cgYwr {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+.button__moyhM:global(.__wab_instance) {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.svg__xGaL3 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.svg__e9Fy {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}

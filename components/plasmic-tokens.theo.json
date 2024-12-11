@@ -1,0 +1,69 @@
+{
+  "props": [
+    {
+      "name": "Blue Sky Blue",
+      "type": "color",
+      "value": "#51CEF0",
+      "category": "color",
+      "meta": {
+        "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+        "id": "OTfsDh2SIUn1"
+      }
+    },
+    {
+      "name": "Test Blue",
+      "type": "color",
+      "value": "#032755",
+      "category": "color",
+      "meta": {
+        "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+        "id": "8MxO2ZnXvMod"
+      }
+    },
+    {
+      "name": "Unnamed Style Token",
+      "type": "color",
+      "value": "#51CEF0",
+      "category": "color",
+      "meta": {
+        "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+        "id": "UBUcaeCvEWc2"
+      }
+    },
+    {
+      "name": "heading-red",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+        "id": "3YKxwpayVDBo"
+      }
+    },
+    {
+      "name": "high white blue ",
+      "type": "color",
+      "value": "#51CEF0",
+      "category": "color",
+      "meta": {
+        "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+        "id": "IwBiE7dTOzRL"
+      }
+    },
+    {
+      "name": "white",
+      "type": "color",
+      "value": "#FFFFFF",
+      "category": "color",
+      "meta": {
+        "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+        "id": "mDv4MR20MbfV"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
