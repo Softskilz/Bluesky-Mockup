@@ -3,23 +3,23 @@
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
 
-import { PlasmicDontUseNewSubscriptionProductDropDownSelection } from "../components/plasmic/blue_sky_mock_up_website/PlasmicDontUseNewSubscriptionProductDropDownSelection";
+import { PlasmicAboutPageV2 } from "../components/plasmic/blue_sky_mock_up_website/PlasmicAboutPageV2";
 import { useRouter } from "next/router";
 
-function DontUseNewSubscriptionProductDropDownSelection() {
-  // Use PlasmicDontUseNewSubscriptionProductDropDownSelection to render this component as it was
+function AboutPageV2() {
+  // Use PlasmicAboutPageV2 to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
   // can also install whatever React hooks you need here to manage state or
   // fetch data.
   //
-  // Props you can pass into PlasmicDontUseNewSubscriptionProductDropDownSelection are:
+  // Props you can pass into PlasmicAboutPageV2 are:
   // 1. Variants you want to activate,
   // 2. Contents for slots you want to fill,
   // 3. Overrides for any named node in the component to attach behavior and data,
   // 4. Props to set on the root node.
   //
-  // By default, PlasmicDontUseNewSubscriptionProductDropDownSelection is wrapped by your project's global
+  // By default, PlasmicAboutPageV2 is wrapped by your project's global
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
@@ -29,9 +29,9 @@ function DontUseNewSubscriptionProductDropDownSelection() {
       params={useRouter()?.query}
       query={useRouter()?.query}
     >
-      <PlasmicDontUseNewSubscriptionProductDropDownSelection />
+      <PlasmicAboutPageV2 />
     </PageParamsProvider__>
   );
 }
 
-export default DontUseNewSubscriptionProductDropDownSelection;
+export default AboutPageV2;

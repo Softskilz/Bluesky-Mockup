@@ -1031,9 +1031,11 @@
   color: var(--token-8MxO2ZnXvMod);
   min-width: 0;
 }
+.link__wgZyp {
+  display: flex;
+}
 .addToCartButton__f8R1S:global(.__wab_instance):global(.__wab_instance) {
-  width: 40%;
-  flex-shrink: 0;
+  width: 143.36%;
 }
 .column__yJyvh {
   display: flex;

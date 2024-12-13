@@ -447,6 +447,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-override={overrides.shop}
                 className={classNames(projectcss.all, projectcss.a, sty.shop)}
                 component={Link}
+                href={`/new-page`}
                 platform={"nextjs"}
               >
                 <div
@@ -520,6 +521,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 data-plasmic-override={overrides.about}
                 className={classNames(projectcss.all, projectcss.a, sty.about)}
                 component={Link}
+                href={`/new-page-11`}
                 platform={"nextjs"}
               >
                 <div
@@ -740,12 +742,22 @@ function PlasmicHomepage__RenderFunc(props: {
                   >
                     {"From $29.00 per month"}
                   </div>
-                  <AddToCartButton
+                  <PlasmicLink__
                     className={classNames(
-                      "__wab_instance",
-                      sty.addToCartButton__f8R1S
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__wgZyp
                     )}
-                  />
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <AddToCartButton
+                      className={classNames(
+                        "__wab_instance",
+                        sty.addToCartButton__f8R1S
+                      )}
+                    />
+                  </PlasmicLink__>
                 </Stack__>
               </div>
               <div className={classNames(projectcss.all, sty.column__yJyvh)}>
