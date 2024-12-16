@@ -3,23 +3,23 @@
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
 
-import { PlasmicFontTest } from "../components/plasmic/blue_sky_mock_up_website/PlasmicFontTest";
+import { PlasmicAboutPageV1 } from "../components/plasmic/blue_sky_mock_up_website/PlasmicAboutPageV1";
 import { useRouter } from "next/router";
 
-function FontTest() {
-  // Use PlasmicFontTest to render this component as it was
+function AboutPageV1() {
+  // Use PlasmicAboutPageV1 to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
   // can also install whatever React hooks you need here to manage state or
   // fetch data.
   //
-  // Props you can pass into PlasmicFontTest are:
+  // Props you can pass into PlasmicAboutPageV1 are:
   // 1. Variants you want to activate,
   // 2. Contents for slots you want to fill,
   // 3. Overrides for any named node in the component to attach behavior and data,
   // 4. Props to set on the root node.
   //
-  // By default, PlasmicFontTest is wrapped by your project's global
+  // By default, PlasmicAboutPageV1 is wrapped by your project's global
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
@@ -29,9 +29,9 @@ function FontTest() {
       params={useRouter()?.query}
       query={useRouter()?.query}
     >
-      <PlasmicFontTest />
+      <PlasmicAboutPageV1 />
     </PageParamsProvider__>
   );
 }
 
-export default FontTest;
+export default AboutPageV1;

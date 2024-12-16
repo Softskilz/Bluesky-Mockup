@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -257,20 +257,6 @@
           "path": "/new-page-2"
         },
         {
-          "id": "8ohNUP8NAKA3",
-          "name": "FontTest",
-          "type": "managed",
-          "projectId": "4kmT42g2H7uUo6tUMY4ybn",
-          "renderModuleFilePath": "plasmic/blue_sky_mock_up_website/PlasmicFontTest.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page-3.tsx"
-          },
-          "cssFilePath": "plasmic/blue_sky_mock_up_website/PlasmicFontTest.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page-3"
-        },
-        {
           "id": "P7X6n34lXUGW",
           "name": "NewSubscriptionOnlyProductV22",
           "type": "managed",
@@ -283,20 +269,6 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/new-page-4"
-        },
-        {
-          "id": "dNp3aHx5sCMy",
-          "name": "NewSubscriptionProductDropDownSelection",
-          "type": "managed",
-          "projectId": "4kmT42g2H7uUo6tUMY4ybn",
-          "renderModuleFilePath": "plasmic/blue_sky_mock_up_website/PlasmicNewSubscriptionProductDropDownSelection.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page-8.tsx"
-          },
-          "cssFilePath": "plasmic/blue_sky_mock_up_website/PlasmicNewSubscriptionProductDropDownSelection.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page-8"
         },
         {
           "id": "2ghnqUzHr9VW",
@@ -325,6 +297,48 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/new-page-7"
+        },
+        {
+          "id": "dNp3aHx5sCMy",
+          "name": "DontUseNewSubscriptionProductDropDownSelection",
+          "type": "managed",
+          "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+          "renderModuleFilePath": "plasmic/blue_sky_mock_up_website/PlasmicDontUseNewSubscriptionProductDropDownSelection.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-8.tsx"
+          },
+          "cssFilePath": "plasmic/blue_sky_mock_up_website/PlasmicDontUseNewSubscriptionProductDropDownSelection.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page-8"
+        },
+        {
+          "id": "4wf2y5Vq09Ry",
+          "name": "AboutPageV1",
+          "type": "managed",
+          "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+          "renderModuleFilePath": "plasmic/blue_sky_mock_up_website/PlasmicAboutPageV1.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-10.tsx"
+          },
+          "cssFilePath": "plasmic/blue_sky_mock_up_website/PlasmicAboutPageV1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page-10"
+        },
+        {
+          "id": "8Uy1jzZAzIib",
+          "name": "AboutPageV2",
+          "type": "managed",
+          "projectId": "4kmT42g2H7uUo6tUMY4ybn",
+          "renderModuleFilePath": "plasmic/blue_sky_mock_up_website/PlasmicAboutPageV2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-11.tsx"
+          },
+          "cssFilePath": "plasmic/blue_sky_mock_up_website/PlasmicAboutPageV2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page-11"
         }
       ],
       "icons": [
@@ -899,6 +913,16 @@
           "id": "exOK_BRkWq1f",
           "name": "Treehouse Hero (1).png 2",
           "filePath": "../public/plasmic/blue_sky_mock_up_website/images/treehouseHero1Png2.png"
+        },
+        {
+          "id": "S0Wiw000Z3f6",
+          "name": "One in a Million-249.jpg",
+          "filePath": "../public/plasmic/blue_sky_mock_up_website/images/oneInAMillion249Jpg.jpg"
+        },
+        {
+          "id": "UO5gJPeMW0DU",
+          "name": "_DSC0704.jpg",
+          "filePath": "../public/plasmic/blue_sky_mock_up_website/images/dsc0704Jpg.jpg"
         }
       ],
       "indirect": false,
